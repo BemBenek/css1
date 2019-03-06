@@ -1,43 +1,89 @@
-body 
-{
+body {
+    padding-top: 150px;
+    margin: 0;
+
     background-color: #404040;
     font-family: 'Lato', sans-serif;
 }
-#container 
-{
-    width: 1000px;
-    margin: auto auto;
-        
+
+.section {
+    margin: 20px 0;
 }
-#logo
-{
+
+.container {
+    width: 1000px;
+
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 130px;
+    width: 100%;
+
+    padding: 10px 0;
+
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+}
+
+.logo {
     color: white;
-    margin-top: 20px;
     font-size: 44px;
     letter-spacing: 2px;
     font-weight: 900;
 }
-#menu 
-{
-    background-color: #303030;
-    margin-top: 20px;
-    color: #FFFFFF;
+
+.menu {
+    display: flex;
+    justify-content: center;
+
     padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
+
+    background-color: #303030;
+    color: #FFFFFF;
 }
-#topbar 
-{
+
+.menu-option {
+    height: 20px;
+
+    padding: 10px;
+
+    border-right: 2px dotted #444444;
+    opacity: 0.8;
+}
+
+.menu-option:first-child {
+    border-left: 2px dotted #444444;
+}
+
+.menu-option:hover {
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.topbar {
+    display: flex;
+
+    height: 170px;
+
+    padding: 10px;
+
     background-color: #128870;
     color: #FFFFFF;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    height: 170px;
 }
-#topbarL
-{
-    float: left;
+
+.topbarL {
     padding: 10px;
     width: 140px;
     text-align: center;
@@ -45,19 +91,17 @@ body
     box-sizing: border-box;
     height: 100%;
 }
-#topbarR
-{
-    float: left;
+
+.topbarR {
     padding: 10px;
     width: 760px;
     font-size: 16px;
     text-align: justify;
     box-sizing: border-box;
     height: 100%;
-        
 }
-#sidebar 
-{
+
+.sidebar {
     float: left;
     width: 148px;
     min-height: 620px;
@@ -66,8 +110,8 @@ body
     font-size: 18px;
     border-right: 2px dotted #666666
 }
-#content 
-{
+
+.content {
     float: left;
     padding: 40px;
     width: 730px;
@@ -75,43 +119,30 @@ body
     min-height: 580px;
     text-align: justify;
 }
-#footer 
-{
+
+.footer {
     clear: both;
     color: white;
     text-align: center;
     padding: 20px;
     font-size: 20px;
 }
-.option
-{
-    float: left;
-    min-width: 50px;
-    height: 20px;
-    padding: 10px;
-    border-right: 2px dotted #444444;
-    opacity: 0.8;
-}
-.option:hover
-{
-    background-color: #000000;
-    cursor: pointer;
-}
-.optionL
-{
+
+
+.optionL {
     font-size: 18px;
     height: 25px;
     padding: 10px;
     border-bottom: 2px dotted #444444;
 }
-.optionL:hover
-{
+
+.optionL:hover {
     background-color: #F36472;
     color: white;
     cursor: pointer;
 }
-.bigtitle
-{
+
+.bigtitle {
     font-size: 32px;
     font-weight: 900;
     letter-spacing: 1px;

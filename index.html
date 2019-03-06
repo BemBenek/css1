@@ -1,69 +1,74 @@
-<DOCTYPE HTML>
-<html>
+<!DOCTYPE HTML>
+<html lang="pl">
 <head>
-    
+
     <title>Linux</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900&amp;subset=latin-ext" rel="stylesheet">
-    
-</head>   
+
+</head>
 <body>
-    
-    <div id="container">
-    
-        <div id="logo">
-            Poznaj linuxa
-        </div>
-        
-        <div id="menu">
-            <div class="option">Strona główna</div> 
-            <div class="option">Dystrybucja</div>
-            <div class="option">Instalacja</div>
-            
-            <div class="option">Polecenia </div>
-            <div class="option">Torvalds </div>
-            <div class="option">O projekcie </div>
-            <div style="clear: both"></div>
-        </div>
-    
-        <div id="topbar">
-            <div id="topbarL">
-                <img src="linux.png" alt="pingwin" style="width: 100%; display: block;">
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                Poznaj linuxa
             </div>
-            
-            <div id="topbarR">
-                <span class="bigtitle">O projekcie słów kilka </span> <br>
-                Kiedy mówisz: "Napisałem program, który wywalił ludzie gapią się na Ciebie głupkowato i mówią: Hej, ja dostałem to wraz z systemem, za darmo" - Linus Torvalds.
+
+            <div class="menu">
+                <div class="menu-option">Strona główna</div>
+                <div class="menu-option">Dystrybucja</div>
+                <div class="menu-option">Instalacja</div>
+                <div class="menu-option">Polecenia </div>
+                <div class="menu-option">Torvalds </div>
+                <div class="menu-option">O projekcieeee </div>
             </div>
-            <div style="clear: both;"></div>
-           
         </div>
-        
-        <div id="sidebar">
-            <div class="optionL">Strona główna</div> 
-            <div class="optionL">Dystrybucja</div>
-            <div class="optionL">Instalacja</div>
-            <div class="optionL">Polecenia </div>
-            <div class="optionL">Torvalds </div>
-            <div class="optionL">O projekcie </div>
-            <div style="clear: both"></div>
-        </div>
-        
-        <div id="content">
-            <span class="bigtitle">Dlaczego Linux?</span> <br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac urna risus. Fusce laoreet, elit id interdum posuere, risus turpis blandit tortor, ac scelerisque sapien erat at nulla. Donec rutrum, elit tempus mattis tempus, diam risus interdum nunc, quis facilisis velit felis eget nunc. Fusce imperdiet lacus eget massa imperdiet aliquam. Nunc a efficitur lorem. Vivamus tincidunt accumsan scelerisque. Morbi sed tristique nulla, sed commodo nisi. Phasellus sed laoreet libero. <br><br>
+    </header>
 
-            Ut tincidunt rhoncus ornare. Maecenas vel pretium elit. Mauris lacinia magna vel felis accumsan eleifend. Cras enim mauris, dignissim eget felis eget, euismod hendrerit quam. Pellentesque congue ex sed est dignissim ornare. Curabitur at ultricies sapien, aliquam vulputate orci. Morbi sed ipsum fringilla, aliquet mauris id, consectetur urna. Duis lectus orci, ultrices id tortor sit amet, molestie viverra risus. Nunc sit amet turpis vitae dolor faucibus ultrices. Praesent ante odio, malesuada nec vehicula ac, imperdiet in est. Nulla pulvinar luctus molestie. Sed a luctus ligula. Quisque dolor nisi, cursus tristique dolor at, eleifend tristique dui. Maecenas non feugiat quam. <br><br>
+    <section class="section">
+        <div class="container">
+            <div class="topbar">
+                <div class="topbarL">
+                    <img src="linux.png" alt="pingwin" style="width: 100%; display: block;">
+                </div>
 
-            Fusce ligula diam, dapibus sed dignissim quis, laoreet a arcu. Nulla rutrum vel quam eget euismod. Fusce id libero vel libero pharetra faucibus eget quis purus. Nunc ornare pretium fermentum. Pellentesque suscipit risus id libero maximus, eget suscipit elit auctor. Quisque mollis ut turpis sed tincidunt. Nullam consectetur malesuada semper. Suspendisse nunc ex, porttitor eu ante non, rhoncus vulputate ligula. <br><br>
+                <div class="topbarR">
+                    <span class="bigtitle">O projekcie słów kilka </span> <br>
+                    Kiedy mówisz: "Napisałem program, który wywalił ludzie gapią się na Ciebie głupkowato i mówią: Hej, ja dostałem to wraz z systemem, za darmo" - Linus Torvalds.
+                </div>
+            </div>
         </div>
-        
-        <div id="footer">
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="sidebar">
+                <div class="optionL">Strona główna</div>
+                <div class="optionL">Dystrybucja</div>
+                <div class="optionL">Instalacja</div>
+                <div class="optionL">Polecenia </div>
+                <div class="optionL">Torvalds </div>
+                <div class="optionL">O projekcie </div>
+                <div style="clear: both"></div>
+            </div>
+
+            <div class="content">
+                <span class="bigtitle">Dlaczego Linux?</span> <br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac urna risus. Fusce laoreet, elit id interdum posuere, risus turpis blandit tortor, ac scelerisque sapien erat at nulla. Donec rutrum, elit tempus mattis tempus, diam risus interdum nunc, quis facilisis velit felis eget nunc. Fusce imperdiet lacus eget massa imperdiet aliquam. Nunc a efficitur lorem. Vivamus tincidunt accumsan scelerisque. Morbi sed tristique nulla, sed commodo nisi. Phasellus sed laoreet libero. <br><br>
+
+                Ut tincidunt rhoncus ornare. Maecenas vel pretium elit. Mauris lacinia magna vel felis accumsan eleifend. Cras enim mauris, dignissim eget felis eget, euismod hendrerit quam. Pellentesque congue ex sed est dignissim ornare. Curabitur at ultricies sapien, aliquam vulputate orci. Morbi sed ipsum fringilla, aliquet mauris id, consectetur urna. Duis lectus orci, ultrices id tortor sit amet, molestie viverra risus. Nunc sit amet turpis vitae dolor faucibus ultrices. Praesent ante odio, malesuada nec vehicula ac, imperdiet in est. Nulla pulvinar luctus molestie. Sed a luctus ligula. Quisque dolor nisi, cursus tristique dolor at, eleifend tristique dui. Maecenas non feugiat quam. <br><br>
+
+                Fusce ligula diam, dapibus sed dignissim quis, laoreet a arcu. Nulla rutrum vel quam eget euismod. Fusce id libero vel libero pharetra faucibus eget quis purus. Nunc ornare pretium fermentum. Pellentesque suscipit risus id libero maximus, eget suscipit elit auctor. Quisque mollis ut turpis sed tincidunt. Nullam consectetur malesuada semper. Suspendisse nunc ex, porttitor eu ante non, rhoncus vulputate ligula. <br><br>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
             Poznaj linuxa, najelpszy darmowy system operacyjny. Strona w siecie od 2014r. &copy; Wszelkie prawa zastrzeżone.
         </div>
-        
-    </div>
-    
-</body>    
+    </footer>
+</body>
 </html>
